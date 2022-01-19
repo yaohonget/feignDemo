@@ -1,0 +1,13 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "2.6.2"
+        id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    }
+}
+
+rootProject.name = 'feignDemo'
+
+include 'Common'
+include 'TestServer1'
+include 'TestServer2'
+include 'EurakaServer'
